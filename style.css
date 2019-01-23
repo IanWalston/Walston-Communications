@@ -5,3 +5,11 @@ body{
 h1{
     color:red
 }
+
+.rotated{
+    transform: rotate(20deg);
+}
+
+img{
+    max-height: 60vmin
+}
