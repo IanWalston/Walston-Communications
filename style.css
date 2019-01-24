@@ -16,7 +16,7 @@ h1 {
 
 h1 {
   font-family: "Lucida Sans Typewriter";
-  font-size: 24px;
+  font-size: 30px;
   font-style: normal;
   font-variant: normal;
   font-weight: 700;
@@ -24,7 +24,7 @@ h1 {
 }
 h2 {
   font-family: "Lucida Sans Typewriter";
-  font-size: 24px;
+  font-size: 30px;
   font-style: normal;
   font-variant: normal;
   font-weight: 700;
@@ -32,7 +32,7 @@ h2 {
 }
 h3 {
   font-family: "Lucida Sans Typewriter";
-  font-size: 14px;
+  font-size: 18px;
   font-style: normal;
   font-variant: normal;
   font-weight: 700;
@@ -40,7 +40,7 @@ h3 {
 }
 p {
   font-family: "Lucida Sans Typewriter";
-  font-size: 14px;
+  font-size: 18px;
   font-style: normal;
   font-variant: normal;
   font-weight: 400;
@@ -66,3 +66,4 @@ pre {
 #navmenu{
   margin: auto
 }
+
