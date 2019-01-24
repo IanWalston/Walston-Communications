@@ -8,8 +8,8 @@ $about.onclick = () => {
   $display.innerHTML = "";
   $display.innerHTML = `
   <div class="row">
-    <div class="col-md-6"><img class="img-fluid rotated" src="img/about.jpg" /></div>
-    <div class="col-md-6">
+    <div class="col-md-5"><img class="img-fluid rotated" src="img/about.jpg" /></div>
+    <div class="col-md-7">
       <div class="row"><h2>remember how you hated writing book reports?</h2></div>
       <div class="row m-2 p-2">
         <p>
@@ -26,7 +26,7 @@ $about.onclick = () => {
       </div>
     </div>
   </div>
-  `
+  `;
 };
 
 $work.onclick = () => {
