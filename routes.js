@@ -1,9 +1,12 @@
-const $display = $("#display");
+const $display = document.getElementById("display");
+const $about = document.getElementById("about");
+const $work = document.getElementById("work");
+const $contact = document.getElementById("contact");
 
-$("#about").on("click", () => {
+$about.onclick = () => {
   event.preventDefault();
-  $display.empty();
-  $display.html(`<div class='row'>
+  $display.innerHTML = "";
+  $display.innerHTML = `<div class='row'>
   <img class='img-fluid rotated' src="img/about.jpg">
 </div>
 <div class='row'>
@@ -31,13 +34,13 @@ $("#about").on("click", () => {
   <div class='col-md-5'>
 
   </div>
-</div>`);
-});
+</div>`;
+};
 
-$("#work").on("click", () => {
-    event.preventDefault();
-    $display.empty();
-    $display.html(`<div class='row'>
+$work.onclick = () => {
+  event.preventDefault();
+  $display.innerHTML = "";
+  $display.innerHTML = `<div class='row'>
     <h3>Look at this portfolio</h3>
 </div>
 <hr>
@@ -77,13 +80,13 @@ $("#work").on("click", () => {
     <span class="sr-only">Next</span>
   </a>
 </div>
-</div>`);
-  });
-  
-  $("#contact").on("click", () => {
-    event.preventDefault();
-    $display.empty();
-    $display.html(`
+</div>`;
+};
+
+$contact.onclick = () => {
+  event.preventDefault();
+  $display.innerHTML = "";
+  $display.innerHTML = `
     <div class='row'>
         <h3>
             Contact me
@@ -108,9 +111,5 @@ $("#work").on("click", () => {
                 linkedin:
             </li> -->
         </ul>
-
-
-
-    </div>`);
-  });
-  
+    </div>`;
+};
