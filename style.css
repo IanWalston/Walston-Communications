@@ -1,15 +1,58 @@
-body {
-  line-height: 2em;
+#navmenu {
+  margin: auto;
 }
 
 h1 {
-  color: red;
+  font-family: "Lucida Sans Typewriter";
+  font-size: 30px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+}
+
+h2 {
+  font-family: "Lucida Sans Typewriter";
+  font-size: 30px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+}
+
+h3 {
+  font-family: "Lucida Sans Typewriter";
+  font-size: 18px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 15.4px;
+}
+
+p {
+  font-family: "Lucida Sans Typewriter";
+  font-size: 18px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.imgsize {
+  max-height: 60vmin;
 }
 
 .rotated {
   animation: rotate 2s;
-  animation-fill-mode: forwards;  
+  animation-fill-mode: forwards;
 }
+
+
+#indeximg {
+  animation: fadeIn 0.6s;
+  animation-fill-mode: forwards;
+}
+
 
 @keyframes rotate {
   from {
@@ -20,43 +63,11 @@ h1 {
   }
 }
 
-.imgsize {
-  max-height: 60vmin;
-}
-
-h1 {
-  font-family: "Lucida Sans Typewriter";
-  font-size: 30px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 700;
-  line-height: 26.4px;
-}
-h2 {
-  font-family: "Lucida Sans Typewriter";
-  font-size: 30px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 700;
-  line-height: 26.4px;
-}
-h3 {
-  font-family: "Lucida Sans Typewriter";
-  font-size: 18px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 700;
-  line-height: 15.4px;
-}
-p {
-  font-family: "Lucida Sans Typewriter";
-  font-size: 18px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 400;
-  line-height: 20px;
-}
-
-#navmenu {
-  margin: auto;
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
