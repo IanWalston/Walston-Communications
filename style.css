@@ -43,6 +43,11 @@ p, a, li {
   max-height: 60vmin;
 }
 
+.center {
+  text-align:center;
+  margin: auto
+}
+
 .rotated {
   animation: rotate 2.6s ease-in-out;
   animation-fill-mode: forwards;

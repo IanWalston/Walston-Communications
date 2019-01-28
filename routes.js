@@ -37,10 +37,12 @@ $about.onclick = () => {
 $work.onclick = () => {
   event.preventDefault();
   $display.innerHTML = "";
-  $display.innerHTML = `<div class='row'>
-    <h3>the proof is in the pudding.</h3>
-</div>
-<hr>
+  $display.innerHTML = `<div class='row mt-4 pt-4'>
+      
+  <h2>the proof is in the pudding.</h2>
+    <br>
+    </div>
+
 <div class="row">
 <img class="img-fluid" src="./img/portfolio/3.jpg" />
 </div>
@@ -88,30 +90,25 @@ $work.onclick = () => {
 $contact.onclick = () => {
   event.preventDefault();
   $display.innerHTML = "";
-  $display.innerHTML = `
-    <div class='row'>
-        <h3>
-            lets chat about your needs.
-        </h3>
-    </div> 
-    <hr>
-    <hr>
-    <div class='row'>
-        <h3>Mark Walston</h3>
-        <hr>
+  $display.innerHTML = `<div class="row">
+  <div class="col-md-6">
+    <div class="row mt-4 pt-4 center"><h2 class="center">lets chat about your needs.</h2></div>
+    <div class="row mt-4 pt-4">
+      <div class="col-md-6">
+        <a href="tel:13019198755"
+          ><img class="img-fluid center" width="200px" src="img/phoneicon.svg"
+        /></a>
+      </div>
+      <div class="col-md-6">
+        <a href="mailto:markwalston@comcast.net"
+          ><img class="img-fluid center" width="200px" src="img/mailicon.svg"
+        /></a>
+      </div>
     </div>
-    <div class='row'>
+  </div>
+  <div class='col-md-6'>
 
-        <ul>
-            <li>
-                <a href="tel:13019198755">Phone</a>
-            </li>
-            <li>
-                <a href='mailto:markwalston@comcast.net'>Email</a>
-            </li>
-            <!-- <li>
-                linkedin:
-            </li> -->
-        </ul>
-    </div>`;
+  </div>
+</div>
+`;
 };
