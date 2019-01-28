@@ -3,7 +3,7 @@
 }
 
 h1 {
-  font-family: "Lucida Sans Typewriter";
+  font-family: "American Typewriter";
   font-size: 30px;
   font-style: normal;
   font-variant: normal;
@@ -12,7 +12,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Lucida Sans Typewriter";
+  font-family: "American Typewriter";
   font-size: 30px;
   font-style: normal;
   font-variant: normal;
@@ -21,7 +21,7 @@ h2 {
 }
 
 h3 {
-  font-family: "Lucida Sans Typewriter";
+  font-family: "American Typewriter";
   font-size: 18px;
   font-style: normal;
   font-variant: normal;
@@ -29,13 +29,14 @@ h3 {
   line-height: 15.4px;
 }
 
-p {
-  font-family: "Lucida Sans Typewriter";
+p, a, li {
+  font-family: "American Typewriter";
+
   font-size: 18px;
   font-style: normal;
   font-variant: normal;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 2em;
 }
 
 .imgsize {
