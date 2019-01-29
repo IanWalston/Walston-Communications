@@ -63,6 +63,7 @@ li {
 
 a img:hover {
   filter: invert(50%);
+  transform: scaleY(-1);
 }
 
 @keyframes rotate {
