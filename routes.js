@@ -95,20 +95,20 @@ $contact.onclick = () => {
     <div class="row mt-4 pt-4 center"><h2 class="center">lets chat about your needs.</h2></div>
     <div class="row mt-4 pt-4">
       <div class="col-md-6">
-        <a href="tel:13019198755"
-          ><img class="img-fluid center" width="200px" src="img/phoneicon.svg"
-        /></a>
+      <a href="tel:13019198755"
+      ><img class="img-fluid center" width="200px" src="img/phoneicon.svg"
+      /></a>
       </div>
       <div class="col-md-6">
-        <a href="mailto:markwalston@comcast.net"
-          ><img class="img-fluid center" width="200px" src="img/mailicon.svg"
-        /></a>
+      <a href="mailto:markwalston@comcast.net"
+      ><img class="img-fluid center" width="200px" src="img/mailicon.svg"
+      /></a>
       </div>
-    </div>
-  </div>
-  <div class='col-md-6'>
-
-  </div>
-</div>
-`;
+      </div>
+      </div>
+      <div class='col-md-6'>
+      
+      </div>
+      </div>
+      `;
 };
