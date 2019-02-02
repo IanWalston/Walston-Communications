@@ -61,7 +61,7 @@ li {
   animation-fill-mode: forwards;
 }
 
-a img:hover {
+#contact div a img:hover {
   filter: invert(50%);
   transform: scaleY(-1);
 }

@@ -37,12 +37,17 @@ $about.onclick = () => {
 $work.onclick = () => {
   event.preventDefault();
   $display.innerHTML = "";
-  $display.innerHTML = `<div class='row mt-4 pt-4'>
+  $display.innerHTML = `<div class='row m-2 p-2'>
       
   <h2>the proof is in the pudding.</h2>
     <br>
     </div>
-
+    <div class="row">
+<img class="img-fluid" src="./img/portfolio/1.jpg" />
+</div>
+    <div class="row">
+    <img class="img-fluid" src="./img/portfolio/2.jpg" />
+    </div>
 <div class="row">
 <img class="img-fluid" src="./img/portfolio/3.jpg" />
 </div>
@@ -84,6 +89,15 @@ $work.onclick = () => {
 </div>
 <div class="row">
 <img class="img-fluid" src="./img/portfolio/16.jpg"/>
+</div>
+<div class="row">
+<img class="img-fluid" src="./img/portfolio/17.jpg" />
+</div>
+<div class="row">
+<img class="img-fluid" src="./img/portfolio/18.jpg" />
+</div>
+<div class="row">
+<img class="img-fluid" src="./img/portfolio/19.jpg" />
 </div>`;
 };
 
@@ -92,8 +106,8 @@ $contact.onclick = () => {
   $display.innerHTML = "";
   $display.innerHTML = `<div class="row">
   <div class="col-md-6">
-    <div class="row mt-4 pt-4 center"><h2 class="center">lets chat about your needs.</h2></div>
-    <div class="row mt-4 pt-4">
+    <div class="row mt-4 pt-4 center"><h2 class="center">let's chat about your needs.</h2></div>
+    <div class="row mt-4 pt-4" id="contact">
       <div class="col-md-6">
       <a href="tel:13019198755"
       ><img class="img-fluid center" width="200px" src="img/phoneicon.svg"
